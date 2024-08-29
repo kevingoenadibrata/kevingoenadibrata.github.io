@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'space-mono', mono;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.5px;
+    transition-duration: 300ms;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.entry {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+a:hover {
+    opacity: 0.6;
+}
